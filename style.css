@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.card {
+  max-width: 307px;
+  padding: 48px;
+  border-radius: 5px;
+}
+
+.carImg {
+  margin-bottom: 35px;
+}
+
+.carName {
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.carText {
+  line-height: 25px;
+  font-size: 15px;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 100;
+  opacity: 0.8;
+  margin: 25px auto 83px auto;
+}
+
+.btn {
+  padding: 12px 32px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+}
+
+.card1 {
+  background-color: #e28625;
+}
+
+.btn1:hover {
+  background-color: #e28625;
+}
+
+.card2 {
+  background-color: #006971;
+}
+.btn2:hover {
+  background-color: #006971;
+}
+
+.card3 {
+  background-color: #004140;
+}
+.btn3:hover {
+  background-color: #004140;
+}
+
+@media (max-width: 700px) {
+  .mainContainer {
+    flex-direction: column;
+    align-items: center;
+    margin: 88px 24px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mainContainer {
+    /* flex-direction: column; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    margin: 100px 50px;
+  }
+}
