@@ -1,1 +1,1 @@
-# 3-column
+http://tri-column-design.netlify.app
